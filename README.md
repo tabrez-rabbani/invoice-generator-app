@@ -38,6 +38,25 @@ InvoiceGen is a professional invoicing platform designed to help businesses crea
 - **PDF Generation**: jsPDF
 - **Charts & Analytics**: Chart.js
 
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](./screenshots/landing-page.png)
+*Professional landing page showcasing the invoice generator features*
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+*User dashboard with invoice statistics and quick actions*
+
+### Invoice Management
+![Invoice List](./screenshots/invoice-list.png)
+*Manage all your invoices with powerful filtering and sorting options*
+
+### Invoice Preview
+![Invoice Preview](./screenshots/invoice-preview.png)
+*Preview invoices before sending them to clients*
+
+
 ## 📝 License
 
 This project is protected by copyright law. All rights reserved. For inquiries regarding licensing or commercial use, please contact the repository owner.
@@ -46,12 +65,12 @@ This project is protected by copyright law. All rights reserved. For inquiries r
 
 For business inquiries, support, or more information:
 
-- **Website**: [invoicegen.com](https://invoicegen.com)
-- **Email**: contact@invoicegen.com
+- **Website**: [tabrezrabbani.in](https://tabrezrabbani.in)
+- **Email**: tabrezrabbani750@gmail.com
 
 ---
 
 <div align="center">
-  <p>Developed with ❤️ by InvoiceGen Team</p>
+  <p>Developed with ❤️ by Tabrez Rabbani</p>
   <p>© 2023-2024 InvoiceGen. All Rights Reserved.</p>
 </div> 
