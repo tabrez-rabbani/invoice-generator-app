@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InvoiceGen - Professional Invoice Generator
 
-## Getting Started
+<div align="center">
+  <h1>InvoiceGen</h1>
+  <h3>Professional Invoicing Solution for Businesses</h3>
+</div>
 
-First, run the development server:
+## ⚠️ IMPORTANT LEGAL NOTICE
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**© 2023-2024 InvoiceGen. All Rights Reserved.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without express written permission from the owner.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**This repository is made public for demonstration and portfolio purposes only.**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 About InvoiceGen
 
-## Learn More
+InvoiceGen is a professional invoicing platform designed to help businesses create, manage, and track invoices efficiently. Built with Next.js, MongoDB, and Stripe integration, it offers a complete solution for business billing needs.
 
-To learn more about Next.js, take a look at the following resources:
+### Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Professional Invoice Creation**: Create beautiful, customizable invoices
+- **Client Management**: Organize and manage your client information
+- **Business Profile Management**: Maintain multiple business profiles
+- **Dashboard Analytics**: Track invoice status, payments, and business performance
+- **Payment Integration**: Accept online payments via Stripe
+- **Multiple Currency Support**: Work with various currencies including USD, EUR, GBP, INR, etc.
+- **PDF Generation**: Download and share professional PDF invoices
+- **Subscription Plans**: Free and premium plans with advanced features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Technology Stack
 
-## Deploy on Vercel
+- **Frontend**: Next.js, React, TailwindCSS
+- **Backend**: Next.js API Routes
+- **Database**: MongoDB
+- **Authentication**: NextAuth.js with Google OAuth
+- **Payment Processing**: Stripe
+- **PDF Generation**: jsPDF
+- **Charts & Analytics**: Chart.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is protected by copyright law. All rights reserved. For inquiries regarding licensing or commercial use, please contact the repository owner.
+
+## 📞 Contact
+
+For business inquiries, support, or more information:
+
+- **Website**: [invoicegen.com](https://invoicegen.com)
+- **Email**: contact@invoicegen.com
+
+---
+
+<div align="center">
+  <p>Developed with ❤️ by InvoiceGen Team</p>
+  <p>© 2023-2024 InvoiceGen. All Rights Reserved.</p>
+</div> 
