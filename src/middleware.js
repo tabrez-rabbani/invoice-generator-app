@@ -9,11 +9,11 @@ export async function middleware(req) {
   const path = req.nextUrl.pathname;
 
   // Define public paths that don't require authentication
-  const publicPaths = ['/', '/auth/signin'];
+  const publicPaths = ['/', '/auth/signin', '/contact', '/faq'];
   const isPublicPath = publicPaths.includes(path);
 
-  // If the path is public or it's an API route, allow the request
-  if (isPublicPath || path.startsWith('/api/auth')) {
+  // If the path is public or it's an API route for auth or contact, allow the request
+  if (isPublicPath || path.startsWith('/api/auth') || path.startsWith('/api/contact')) {
     return NextResponse.next();
   }
 

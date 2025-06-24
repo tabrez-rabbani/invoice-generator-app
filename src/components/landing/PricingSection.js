@@ -25,14 +25,14 @@ export default function PricingSection() {
     },
     {
       name: "Pro",
-      price: "$12",
+      price: "$9.99",
       description: "Best for growing businesses",
       features: [
-        "Unlimited invoices",
-        "Unlimited clients",
+        "100 invoices per month",
+        "50 clients",
         "Custom branding",
         "Priority support",
-        "Advanced analytics",
+        "Basic analytics",
         "Payment tracking",
         "Multiple currencies"
       ],
@@ -42,18 +42,17 @@ export default function PricingSection() {
     },
     {
       name: "Enterprise",
-      price: "$39",
+      price: "$29.99",
       description: "For teams and large businesses",
       features: [
-        "Everything in Pro",
-        "Team collaboration",
-        "API access",
-        "White-label solution",
-        "Dedicated support",
+        "Unlimited invoices",
+        "Unlimited clients",
+        "Advanced analytics",
+        "Priority support",
         "Custom integrations",
         "Advanced reporting"
       ],
-      cta: "Contact Sales",
+      cta: "Get Started",
       popular: false,
       planId: "enterprise"
     }
@@ -67,15 +66,8 @@ export default function PricingSection() {
       } else {
         signIn('google', { callbackUrl: '/dashboard' });
       }
-    } else if (plan.planId === 'enterprise') {
-      // Enterprise - contact sales (for now just redirect to support)
-      if (session) {
-        router.push('/support');
-      } else {
-        signIn('google', { callbackUrl: '/support' });
-      }
     } else {
-      // Pro plan - go to checkout
+      // Pro or Enterprise plan - go to checkout
       if (session) {
         router.push(`/checkout?plan=${plan.planId}`);
       } else {

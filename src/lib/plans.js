@@ -18,32 +18,31 @@ export const PLANS = {
   },
   pro: {
     name: 'Pro',
-    price: 12,
+    price: 9.99,
     priceId: 'price_pro', // Will be replaced with actual Stripe price ID
     features: [
-      'Unlimited invoices',
-      'Unlimited clients',
+      '100 invoices per month',
+      '50 clients',
       'Custom branding',
       'Priority support',
-      'Advanced analytics',
+      'Basic analytics',
       'Payment tracking',
       'Multiple currencies'
     ],
     limits: {
-      invoices: -1, // Unlimited
-      clients: -1   // Unlimited
+      invoices: 100,
+      clients: 50
     }
   },
   enterprise: {
     name: 'Enterprise',
-    price: 39,
+    price: 29.99,
     priceId: 'price_enterprise', // Will be replaced with actual Stripe price ID
     features: [
-      'Everything in Pro',
-      'Team collaboration',
-      'API access',
-      'White-label solution',
-      'Dedicated support',
+      'Unlimited invoices',
+      'Unlimited clients',
+      'Advanced analytics',
+      'Priority support',
       'Custom integrations',
       'Advanced reporting'
     ],

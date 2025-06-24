@@ -37,6 +37,9 @@ export default function LandingNavbar() {
               <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium">
                 How it Works
               </a>
+              <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium">
+                Contact
+              </Link>
               <button
                 onClick={() => router.push('/auth/signin')}
                 className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium"
@@ -78,6 +81,9 @@ export default function LandingNavbar() {
               <a href="#how-it-works" className="block px-3 py-2 text-gray-600 hover:text-blue-600 text-sm font-medium">
                 How it Works
               </a>
+              <Link href="/contact" className="block px-3 py-2 text-gray-600 hover:text-blue-600 text-sm font-medium">
+                Contact
+              </Link>
               <button
                 onClick={() => router.push('/auth/signin')}
                 className="block w-full text-left px-3 py-2 text-gray-600 hover:text-blue-600 text-sm font-medium"

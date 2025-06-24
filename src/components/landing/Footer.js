@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900">
@@ -27,8 +29,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               <li><a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a></li>
               <li><a href="#pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Security</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Updates</a></li>
+              <li><Link href="/faq" className="text-gray-300 hover:text-white transition-colors">FAQ</Link></li>
             </ul>
           </div>
 
@@ -36,10 +37,9 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
             <ul className="mt-4 space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">API Docs</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Status</a></li>
+              <li><Link href="/help" className="text-gray-300 hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact Us</Link></li>
+              <li><a href="mailto:support@invoicegenerator.com" className="text-gray-300 hover:text-white transition-colors">Email Support</a></li>
             </ul>
           </div>
         </div>
@@ -50,9 +50,8 @@ export default function Footer() {
               © 2024 InvoiceGen. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0 flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+              <Link href="/support" className="text-gray-400 hover:text-white text-sm">Privacy Policy</Link>
+              <Link href="/support" className="text-gray-400 hover:text-white text-sm">Terms of Service</Link>
             </div>
           </div>
         </div>
